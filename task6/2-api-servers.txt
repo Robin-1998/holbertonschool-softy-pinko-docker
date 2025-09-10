@@ -1,0 +1,4 @@
+docker-compose up --scale back-end=2
+
+// --scale : permet de spécifier le nombre d'instances à créer pour un service donné
+// back-end=2 : crée exactement 2 instances du service nommé "back-end"
